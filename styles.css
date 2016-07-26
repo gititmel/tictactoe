@@ -1,0 +1,67 @@
+.container {
+	height 		: 100%;
+	width 		: 400px;
+  	margin 		: auto;
+  	background 	: white;
+}
+
+.row{
+	text-align 		: center;
+}
+
+#game-grid{
+	background 	: white;
+
+	height 		: 300px;
+}
+
+.box{
+
+	border			: 1px solid black;
+ 	height			: 100px;
+  	width 			: 100px;
+  	font-family		: 'Architects Daughter', cursive;
+  	font-size 		: 80px;
+  	float 			: left;
+  	position 		: relative;
+  	left 			: 50px;
+}
+
+h1{
+	font-family		: 'Permanent Marker', cursive;
+	letter-spacing	: 8px;
+	font-size 		: 8vh;
+	margin 			: 0px;
+}
+
+#content{
+	font-family: 'Roboto Mono', monospace;
+
+}
+
+#newGame{     
+	position    : relative;     
+	top         : 20px;
+	left 		: -100px;     
+	background  : rgba(36,144,167,1);     
+	width       : 100px;     
+	height      : 45px;     
+	color		: white;     
+	cursor      : pointer; 
+	margin 		: auto;
+}
+
+#newGame:hover{
+		background  : rgba(36,144,167,0.5);     
+}
+
+#gameStatus{
+	position    : relative;     
+	top         : -25px;
+	right 		: -70px;     
+	background  : rgba(252,156,58,1);     
+	width       : 175px;     
+	height      : 45px;     
+	color		: white;
+	margin 		: auto;
+}
